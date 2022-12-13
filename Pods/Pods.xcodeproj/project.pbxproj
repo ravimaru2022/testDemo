@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6164B05B5EAB7A16188BE69BCC9EBC7E /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+				1942DC242E5E1329454EB610A4490AAB /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0D5599C69C6647E079F0FA983C192AF4 /* icon-success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA37C878540E597806FCF178A3E2696 /* icon-success@2x.png */; };
+		17DE87344CAD319DE6AA0F7BE1BA10C7 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B4BF67AF20626F6EF6A9800D33944FA /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		210DD290122BB0C7A0E83DC5148D724E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		22112F10BBE31CA2D865A6CE1DE22A23 /* icon-error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83379EE397EEFFED2E7F500F71E67B13 /* icon-error@3x.png */; };
+		2D3271F44436FCF8C48A76010488A93A /* icon-error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C141AD52A95B37993AC32D5CFF5986 /* icon-error@2x.png */; };
+		3158DA42F4B0BE44A3D90FF54059D2FA /* icon-info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F3755E2A102A41CAF74F7226FDB2EC /* icon-info@2x.png */; };
+		48EC860B848836B87BD21ACC97C1C444 /* icon-success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1705682CF76DE7124381E49855B056 /* icon-success@3x.png */; };
+		5152F4D9E8B6FF188667F25738B3F9FC /* icon-info.png in Resources */ = {isa = PBXBuildFile; fileRef = C5681569A140981623DBA6DB7FD4D79B /* icon-info.png */; };
+		526A4FC83F79D3B72BF6F810CA42EDBC /* icon-error.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FF489D41AE2CA19E9ED7E85B3F0AB14 /* icon-error.png */; };
+		5433D9B1A7004CEBF4CA2F1FEEBCAB38 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */; };
+		5A68C1A0905908FCBA278951D4130453 /* SwiftMessageBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8CB3E571E6BD49401A37034F7FEEA04 /* SwiftMessageBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627B541CCA542F48A76E6C7EDEB95809 /* Pods-MyFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0C0ABADE94A62B01C7B6A4D13FF1DF0 /* Pods-MyFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6473B3356BF149ECDC51A52B8A455835 /* SwiftMessageBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B448565541546F8CEEAA00F685E5BC26 /* SwiftMessageBar-dummy.m */; };
+		6FED4EE3A6EAEA24D312DDA3701786C8 /* Pods-MyFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43FFE17AC536D2D865723CCAF3611833 /* Pods-MyFramework-dummy.m */; };
+		8A075AF68FDD509044D9E682B829ADB3 /* SwiftMessageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8279C661261A388624002FD3B8FB3FEA /* SwiftMessageBar.swift */; };
+		90754217E101DFF5C1A6C0A06C01337A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		93DE5DC6D98B5DD09860532E35AE7C90 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */; };
+		94CAF6807B9F4CCCD7BE300E0FC01285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */; };
+		960DCEE9167C9C9E11FAA0EDAF872B2F /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8DC0739AD8E6DE1757E477F1C7F14F /* ReachabilitySwift-dummy.m */; };
+		96498A4CAF65F39CF45E5988A0589745 /* MessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5CBA128BA369E1DAAC86B52886B9FC /* MessageType.swift */; };
+		9AB399E1EF29DF9EBFB2F31A6C942A45 /* icon-success@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D935A8A4E1A38BD31444D4CCEFC3A098 /* icon-success@1x.png */; };
+		AB43B618099D0E0BE5730DE4166CD403 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576EAEB8867B9D3876F8D3CF29AC1634 /* Reachability.swift */; };
+		BA79B4688EF5BA6F57FE4540DF6A8E93 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062E3515369EAB29DCED9EC00BEF1EC /* Queue.swift */; };
+		C2F684AFF52FCC7BB16C4126574B9471 /* icon-info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45BBE2B847DD1698731B8CC3C4BF4354 /* icon-info@3x.png */; };
+		C4E075F5EB90826A1F7C7E997E28E36F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC579F466E3C562D384636643BB6A4A /* Message.swift */; };
+		C5E7EDCC87CC86CF02F055882BEC3DCF /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B615AA2B5487747C2FC316CA7A830DCF /* DeviceType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B5C0893FB34594229A4115F6CAA1CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		9EFEBBE15BC2A998AC4CDC98307A2839 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D2708ED87355D60222C4C6D96A4C0F0;
+			remoteInfo = SwiftMessageBar;
+		};
+		F48ACC7D82D7051E760EF93F3A2D0606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		055D976BF641B04FC2F3AA1E9CC12A3C /* Pods-MyFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyFramework-Info.plist"; sourceTree = "<group>"; };
+		07E2DBD1121B0B45A3340254B8E03B6D /* Pods-MyFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B8DC0739AD8E6DE1757E477F1C7F14F /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		0DC2BF92D9F5EC34F26295EC8C4675BB /* SwiftMessageBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftMessageBar.modulemap; sourceTree = "<group>"; };
+		0F1705682CF76DE7124381E49855B056 /* icon-success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-success@3x.png"; path = "SwiftMessageBar/icon-success@3x.png"; sourceTree = "<group>"; };
+		14BD6F5F1D963EDBE7154FAD9F88C71D /* ReachabilitySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.debug.xcconfig; sourceTree = "<group>"; };
+		17D35D562185BDAA682F231293A1D47D /* SwiftMessageBar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftMessageBar; path = SwiftMessageBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBBB7913B438A6381B3671325A2743E /* Pods-MyFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		1FF489D41AE2CA19E9ED7E85B3F0AB14 /* icon-error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-error.png"; path = "SwiftMessageBar/icon-error.png"; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C141AD52A95B37993AC32D5CFF5986 /* icon-error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-error@2x.png"; path = "SwiftMessageBar/icon-error@2x.png"; sourceTree = "<group>"; };
+		23BD259BE5A48D895679DBA5C5D733F6 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		23F3755E2A102A41CAF74F7226FDB2EC /* icon-info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-info@2x.png"; path = "SwiftMessageBar/icon-info@2x.png"; sourceTree = "<group>"; };
+		2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		2DC579F466E3C562D384636643BB6A4A /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = SwiftMessageBar/Message.swift; sourceTree = "<group>"; };
+		3166B299C17908848FB7C9B4DF4A162A /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		3623F4DA6F1B1188067CB12AD82762FC /* SwiftMessageBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessageBar.release.xcconfig; sourceTree = "<group>"; };
+		39412493395D70D798B2542153DA73D0 /* SwiftMessageBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessageBar-prefix.pch"; sourceTree = "<group>"; };
+		3D59405D8A678C5C828201201EE81752 /* Pods-MyFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E5CBA128BA369E1DAAC86B52886B9FC /* MessageType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageType.swift; path = SwiftMessageBar/MessageType.swift; sourceTree = "<group>"; };
+		3ED56341A9EC41F6E07932AC90953B42 /* Pods-MyFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyFramework"; path = Pods_MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4062E3515369EAB29DCED9EC00BEF1EC /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = SwiftMessageBar/Queue.swift; sourceTree = "<group>"; };
+		43FFE17AC536D2D865723CCAF3611833 /* Pods-MyFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyFramework-dummy.m"; sourceTree = "<group>"; };
+		45BBE2B847DD1698731B8CC3C4BF4354 /* icon-info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-info@3x.png"; path = "SwiftMessageBar/icon-info@3x.png"; sourceTree = "<group>"; };
+		4E00FB08619B7EAD381E41F4D4CE2FEC /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		576EAEB8867B9D3876F8D3CF29AC1634 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		5DA37C878540E597806FCF178A3E2696 /* icon-success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-success@2x.png"; path = "SwiftMessageBar/icon-success@2x.png"; sourceTree = "<group>"; };
+		69801BED7C88222FA5CE053FB29328B4 /* Pods-MyFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyFramework.modulemap"; sourceTree = "<group>"; };
+		7BB4BC0334959C6FFCFBAEF713F61B86 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		8279C661261A388624002FD3B8FB3FEA /* SwiftMessageBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMessageBar.swift; path = SwiftMessageBar/SwiftMessageBar.swift; sourceTree = "<group>"; };
+		83379EE397EEFFED2E7F500F71E67B13 /* icon-error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-error@3x.png"; path = "SwiftMessageBar/icon-error@3x.png"; sourceTree = "<group>"; };
+		8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		86A12F2A74D2037A413ED72E1778DAE7 /* Flutter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Flutter.xcframework; sourceTree = "<group>"; };
+		8B4BF67AF20626F6EF6A9800D33944FA /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		8FF8850BAC7A2B627699C3D667E4DB83 /* SwiftMessageBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessageBar.debug.xcconfig; sourceTree = "<group>"; };
+		92E579D4B7CAE58857F5485245AF899B /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0C0ABADE94A62B01C7B6A4D13FF1DF0 /* Pods-MyFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyFramework-umbrella.h"; sourceTree = "<group>"; };
+		A684E5C3162B39F9FEEF52A3F7B1BEF0 /* Flutter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Flutter-xcframeworks.sh"; sourceTree = "<group>"; };
+		ABCE126D399E6019CA83205E936C20E4 /* SwiftMessageBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftMessageBar-Info.plist"; sourceTree = "<group>"; };
+		AD65D12D66D28E7DAB0018ACC6CDC952 /* Pods-MyFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFramework.release.xcconfig"; sourceTree = "<group>"; };
+		B448565541546F8CEEAA00F685E5BC26 /* SwiftMessageBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMessageBar-dummy.m"; sourceTree = "<group>"; };
+		B615AA2B5487747C2FC316CA7A830DCF /* DeviceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceType.swift; path = SwiftMessageBar/DeviceType.swift; sourceTree = "<group>"; };
+		B8CB3E571E6BD49401A37034F7FEEA04 /* SwiftMessageBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessageBar-umbrella.h"; sourceTree = "<group>"; };
+		C5681569A140981623DBA6DB7FD4D79B /* icon-info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-info.png"; path = "SwiftMessageBar/icon-info.png"; sourceTree = "<group>"; };
+		D935A8A4E1A38BD31444D4CCEFC3A098 /* icon-success@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon-success@1x.png"; path = "SwiftMessageBar/icon-success@1x.png"; sourceTree = "<group>"; };
+		EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1B4EC5FDF9673E62A1882460D027C1F /* ReachabilitySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C23E2775A268AF03AB4FB35BFC953FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5433D9B1A7004CEBF4CA2F1FEEBCAB38 /* CoreTelephony.framework in Frameworks */,
+				210DD290122BB0C7A0E83DC5148D724E /* Foundation.framework in Frameworks */,
+				93DE5DC6D98B5DD09860532E35AE7C90 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28671D2D8A516F6C3FE9AAD5F93183A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90754217E101DFF5C1A6C0A06C01337A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93802D585350169E7E6FF08600FD096C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CAF6807B9F4CCCD7BE300E0FC01285 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		004E4BB54F28ED93A2A21D5D8240BC12 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6671313D40DD91FAE6EDE72CE871E9ED /* Pods-MyFramework */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		035AAF19476ECC9BC538F8347762DDE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DC2BF92D9F5EC34F26295EC8C4675BB /* SwiftMessageBar.modulemap */,
+				B448565541546F8CEEAA00F685E5BC26 /* SwiftMessageBar-dummy.m */,
+				ABCE126D399E6019CA83205E936C20E4 /* SwiftMessageBar-Info.plist */,
+				39412493395D70D798B2542153DA73D0 /* SwiftMessageBar-prefix.pch */,
+				B8CB3E571E6BD49401A37034F7FEEA04 /* SwiftMessageBar-umbrella.h */,
+				8FF8850BAC7A2B627699C3D667E4DB83 /* SwiftMessageBar.debug.xcconfig */,
+				3623F4DA6F1B1188067CB12AD82762FC /* SwiftMessageBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftMessageBar";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F621761C10451F73C1586FED94CCAC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25F621761C10451F73C1586FED94CCAC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2544C3A1631BACBD2FC964E079CB6787 /* CoreTelephony.framework */,
+				EE2B117F7A3CB312FF54BFF9D46B0180 /* Foundation.framework */,
+				8600D47A402BFF4D6115152C4674E704 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3A04FF087A8A909C21285F2CC2E82DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ED56341A9EC41F6E07932AC90953B42 /* Pods-MyFramework */,
+				21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */,
+				17D35D562185BDAA682F231293A1D47D /* SwiftMessageBar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6671313D40DD91FAE6EDE72CE871E9ED /* Pods-MyFramework */ = {
+			isa = PBXGroup;
+			children = (
+				69801BED7C88222FA5CE053FB29328B4 /* Pods-MyFramework.modulemap */,
+				07E2DBD1121B0B45A3340254B8E03B6D /* Pods-MyFramework-acknowledgements.markdown */,
+				3D59405D8A678C5C828201201EE81752 /* Pods-MyFramework-acknowledgements.plist */,
+				43FFE17AC536D2D865723CCAF3611833 /* Pods-MyFramework-dummy.m */,
+				055D976BF641B04FC2F3AA1E9CC12A3C /* Pods-MyFramework-Info.plist */,
+				A0C0ABADE94A62B01C7B6A4D13FF1DF0 /* Pods-MyFramework-umbrella.h */,
+				1DBBB7913B438A6381B3671325A2743E /* Pods-MyFramework.debug.xcconfig */,
+				AD65D12D66D28E7DAB0018ACC6CDC952 /* Pods-MyFramework.release.xcconfig */,
+			);
+			name = "Pods-MyFramework";
+			path = "Target Support Files/Pods-MyFramework";
+			sourceTree = "<group>";
+		};
+		669C4C6FF2CA1A3849376F7B78998D39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3166B299C17908848FB7C9B4DF4A162A /* ReachabilitySwift.modulemap */,
+				0B8DC0739AD8E6DE1757E477F1C7F14F /* ReachabilitySwift-dummy.m */,
+				4E00FB08619B7EAD381E41F4D4CE2FEC /* ReachabilitySwift-Info.plist */,
+				23BD259BE5A48D895679DBA5C5D733F6 /* ReachabilitySwift-prefix.pch */,
+				8B4BF67AF20626F6EF6A9800D33944FA /* ReachabilitySwift-umbrella.h */,
+				14BD6F5F1D963EDBE7154FAD9F88C71D /* ReachabilitySwift.debug.xcconfig */,
+				F1B4EC5FDF9673E62A1882460D027C1F /* ReachabilitySwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
+			sourceTree = "<group>";
+		};
+		70F49F399FB9CC69E11B77471D4EB2CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8239432D9F4CACD11E3F833F62EE7857 /* Flutter */,
+				AC9A3A46BAEEB8E4B1C7D54D5D78C2D4 /* ReachabilitySwift */,
+				D926282BF7FFCE36D15BE521885A9B79 /* SwiftMessageBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BC32F4D45A5D0D32D42FA502BF12D02 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1FF489D41AE2CA19E9ED7E85B3F0AB14 /* icon-error.png */,
+				22C141AD52A95B37993AC32D5CFF5986 /* icon-error@2x.png */,
+				83379EE397EEFFED2E7F500F71E67B13 /* icon-error@3x.png */,
+				C5681569A140981623DBA6DB7FD4D79B /* icon-info.png */,
+				23F3755E2A102A41CAF74F7226FDB2EC /* icon-info@2x.png */,
+				45BBE2B847DD1698731B8CC3C4BF4354 /* icon-info@3x.png */,
+				D935A8A4E1A38BD31444D4CCEFC3A098 /* icon-success@1x.png */,
+				5DA37C878540E597806FCF178A3E2696 /* icon-success@2x.png */,
+				0F1705682CF76DE7124381E49855B056 /* icon-success@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8239432D9F4CACD11E3F833F62EE7857 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				8A993E49F07D8B55159C3933AC7A7783 /* Frameworks */,
+				9B096736E046DB5B7C3293E80CC41B31 /* Support Files */,
+			);
+			name = Flutter;
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		8A993E49F07D8B55159C3933AC7A7783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86A12F2A74D2037A413ED72E1778DAE7 /* Flutter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B096736E046DB5B7C3293E80CC41B31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A684E5C3162B39F9FEEF52A3F7B1BEF0 /* Flutter-xcframeworks.sh */,
+				7BB4BC0334959C6FFCFBAEF713F61B86 /* Flutter.debug.xcconfig */,
+				92E579D4B7CAE58857F5485245AF899B /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		AC9A3A46BAEEB8E4B1C7D54D5D78C2D4 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				576EAEB8867B9D3876F8D3CF29AC1634 /* Reachability.swift */,
+				669C4C6FF2CA1A3849376F7B78998D39 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				70F49F399FB9CC69E11B77471D4EB2CF /* Pods */,
+				3A04FF087A8A909C21285F2CC2E82DEB /* Products */,
+				004E4BB54F28ED93A2A21D5D8240BC12 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D926282BF7FFCE36D15BE521885A9B79 /* SwiftMessageBar */ = {
+			isa = PBXGroup;
+			children = (
+				B615AA2B5487747C2FC316CA7A830DCF /* DeviceType.swift */,
+				2DC579F466E3C562D384636643BB6A4A /* Message.swift */,
+				3E5CBA128BA369E1DAAC86B52886B9FC /* MessageType.swift */,
+				4062E3515369EAB29DCED9EC00BEF1EC /* Queue.swift */,
+				8279C661261A388624002FD3B8FB3FEA /* SwiftMessageBar.swift */,
+				7BC32F4D45A5D0D32D42FA502BF12D02 /* Resources */,
+				035AAF19476ECC9BC538F8347762DDE5 /* Support Files */,
+			);
+			name = SwiftMessageBar;
+			path = SwiftMessageBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		729E3D2FAA7E63130BFFE7140E4525A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627B541CCA542F48A76E6C7EDEB95809 /* Pods-MyFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87851B99A30101794A7CE9E1240A803F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A68C1A0905908FCBA278951D4130453 /* SwiftMessageBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A07235E1E88D103EFDEB6510A0BCE7A8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DE87344CAD319DE6AA0F7BE1BA10C7 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14DE1166A8B9C02D036523FB495E1984 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				A07235E1E88D103EFDEB6510A0BCE7A8 /* Headers */,
+				000885395D0D686A060DD76E35D874C2 /* Sources */,
+				1C23E2775A268AF03AB4FB35BFC953FA /* Frameworks */,
+				332B7A37F1A79B4B578E4145341A0E1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = Reachability;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* ReachabilitySwift */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D2708ED87355D60222C4C6D96A4C0F0 /* SwiftMessageBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097EA1CFC16075ADABED4FB1F32C5B5D /* Build configuration list for PBXNativeTarget "SwiftMessageBar" */;
+			buildPhases = (
+				87851B99A30101794A7CE9E1240A803F /* Headers */,
+				2DEC57295982CEFE0D675CF99EAAFDA9 /* Sources */,
+				28671D2D8A516F6C3FE9AAD5F93183A3 /* Frameworks */,
+				3038C0EB041FD9CD7CA310C2B7980AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftMessageBar;
+			productName = SwiftMessageBar;
+			productReference = 17D35D562185BDAA682F231293A1D47D /* SwiftMessageBar */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B3B7845221996DC26C83ECBD7856C42 /* Pods-MyFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAACE387BA1C6204E20C00C3E1E5B17E /* Build configuration list for PBXNativeTarget "Pods-MyFramework" */;
+			buildPhases = (
+				729E3D2FAA7E63130BFFE7140E4525A4 /* Headers */,
+				496BDC863289C99122DECD9D114E037A /* Sources */,
+				93802D585350169E7E6FF08600FD096C /* Frameworks */,
+				B2A9FE628F645D526AF1FE1EDAAECD2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCD235B87A26699B89F49D6E4EBDF2A /* PBXTargetDependency */,
+				5BEFBBF448F7B5A7F11AB5C4B79CA3A1 /* PBXTargetDependency */,
+				A930BF76BA4F4CF02473E86D8B2697D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyFramework";
+			productName = Pods_MyFramework;
+			productReference = 3ED56341A9EC41F6E07932AC90953B42 /* Pods-MyFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3A04FF087A8A909C21285F2CC2E82DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				7B3B7845221996DC26C83ECBD7856C42 /* Pods-MyFramework */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
+				3D2708ED87355D60222C4C6D96A4C0F0 /* SwiftMessageBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3038C0EB041FD9CD7CA310C2B7980AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526A4FC83F79D3B72BF6F810CA42EDBC /* icon-error.png in Resources */,
+				2D3271F44436FCF8C48A76010488A93A /* icon-error@2x.png in Resources */,
+				22112F10BBE31CA2D865A6CE1DE22A23 /* icon-error@3x.png in Resources */,
+				5152F4D9E8B6FF188667F25738B3F9FC /* icon-info.png in Resources */,
+				3158DA42F4B0BE44A3D90FF54059D2FA /* icon-info@2x.png in Resources */,
+				C2F684AFF52FCC7BB16C4126574B9471 /* icon-info@3x.png in Resources */,
+				9AB399E1EF29DF9EBFB2F31A6C942A45 /* icon-success@1x.png in Resources */,
+				0D5599C69C6647E079F0FA983C192AF4 /* icon-success@2x.png in Resources */,
+				48EC860B848836B87BD21ACC97C1C444 /* icon-success@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		332B7A37F1A79B4B578E4145341A0E1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2A9FE628F645D526AF1FE1EDAAECD2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1942DC242E5E1329454EB610A4490AAB /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Flutter/Flutter-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000885395D0D686A060DD76E35D874C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB43B618099D0E0BE5730DE4166CD403 /* Reachability.swift in Sources */,
+				960DCEE9167C9C9E11FAA0EDAF872B2F /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEC57295982CEFE0D675CF99EAAFDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E7EDCC87CC86CF02F055882BEC3DCF /* DeviceType.swift in Sources */,
+				C4E075F5EB90826A1F7C7E997E28E36F /* Message.swift in Sources */,
+				96498A4CAF65F39CF45E5988A0589745 /* MessageType.swift in Sources */,
+				BA79B4688EF5BA6F57FE4540DF6A8E93 /* Queue.swift in Sources */,
+				8A075AF68FDD509044D9E682B829ADB3 /* SwiftMessageBar.swift in Sources */,
+				6473B3356BF149ECDC51A52B8A455835 /* SwiftMessageBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496BDC863289C99122DECD9D114E037A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FED4EE3A6EAEA24D312DDA3701786C8 /* Pods-MyFramework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BEFBBF448F7B5A7F11AB5C4B79CA3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = F48ACC7D82D7051E760EF93F3A2D0606 /* PBXContainerItemProxy */;
+		};
+		A930BF76BA4F4CF02473E86D8B2697D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessageBar;
+			target = 3D2708ED87355D60222C4C6D96A4C0F0 /* SwiftMessageBar */;
+			targetProxy = 9EFEBBE15BC2A998AC4CDC98307A2839 /* PBXContainerItemProxy */;
+		};
+		CDCD235B87A26699B89F49D6E4EBDF2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 92B5C0893FB34594229A4115F6CAA1CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0489B29A2C2C58D925438809BB115BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD65D12D66D28E7DAB0018ACC6CDC952 /* Pods-MyFramework.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework/Pods-MyFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework/Pods-MyFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45E8171F3B13294C1434863A6CD6D4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BD6F5F1D963EDBE7154FAD9F88C71D /* ReachabilitySwift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61216CB47EA451842A46DE94FFD97546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E579D4B7CAE58857F5485245AF899B /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79448EBEC2A083CCCD364CEC0A490378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3623F4DA6F1B1188067CB12AD82762FC /* SwiftMessageBar.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessageBar/SwiftMessageBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessageBar/SwiftMessageBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftMessageBar/SwiftMessageBar.modulemap";
+				PRODUCT_MODULE_NAME = SwiftMessageBar;
+				PRODUCT_NAME = SwiftMessageBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		819FEF8AE194E90AAD73D4A066042D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBBB7913B438A6381B3671325A2743E /* Pods-MyFramework.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MyFramework/Pods-MyFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MyFramework/Pods-MyFramework.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B27D98EA1D68C06D20EAA3A5B11E06E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF8850BAC7A2B627699C3D667E4DB83 /* SwiftMessageBar.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessageBar/SwiftMessageBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessageBar/SwiftMessageBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftMessageBar/SwiftMessageBar.modulemap";
+				PRODUCT_MODULE_NAME = SwiftMessageBar;
+				PRODUCT_NAME = SwiftMessageBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EACDDDC9C0F413718312E0A600371E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1B4EC5FDF9673E62A1882460D027C1F /* ReachabilitySwift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F19EAB89AE2E055940FF0E201AB866F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB4BC0334959C6FFCFBAEF713F61B86 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		097EA1CFC16075ADABED4FB1F32C5B5D /* Build configuration list for PBXNativeTarget "SwiftMessageBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B27D98EA1D68C06D20EAA3A5B11E06E5 /* Debug */,
+				79448EBEC2A083CCCD364CEC0A490378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14DE1166A8B9C02D036523FB495E1984 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E8171F3B13294C1434863A6CD6D4D2 /* Debug */,
+				EACDDDC9C0F413718312E0A600371E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6164B05B5EAB7A16188BE69BCC9EBC7E /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19EAB89AE2E055940FF0E201AB866F5 /* Debug */,
+				61216CB47EA451842A46DE94FFD97546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAACE387BA1C6204E20C00C3E1E5B17E /* Build configuration list for PBXNativeTarget "Pods-MyFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				819FEF8AE194E90AAD73D4A066042D8D /* Debug */,
+				0489B29A2C2C58D925438809BB115BE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

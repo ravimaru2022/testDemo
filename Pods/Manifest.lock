@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (3.3.200)
+  - ReachabilitySwift (5.0.0)
+  - SwiftMessageBar (5.6.1)
+
+DEPENDENCIES:
+  - Flutter (from `https://dev-tappp-panel.s3.us-east-2.amazonaws.com/build/ios/framework/Release/Flutter.podspec`)
+  - ReachabilitySwift
+  - SwiftMessageBar
+
+SPEC REPOS:
+  trunk:
+    - ReachabilitySwift
+    - SwiftMessageBar
+
+EXTERNAL SOURCES:
+  Flutter:
+    :podspec: https://dev-tappp-panel.s3.us-east-2.amazonaws.com/build/ios/framework/Release/Flutter.podspec
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  Flutter: 1fa2e77d1a710a4df455f8f72ebc39647d95e5fb
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwiftMessageBar: bb93132e3cd4c8896a971df1b425a587bc5e26ae
+
+PODFILE CHECKSUM: 49adb111e73296805c7da75707ce0791b5de120b
+
+COCOAPODS: 1.11.3
